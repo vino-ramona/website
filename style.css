@@ -1,0 +1,254 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+}
+
+
+.banner {
+		background-image: url("uvas_gris.jpeg");
+		background-opacity: 0.3;
+		background-size:cover;
+		background-position: center;
+		padding: 35px 0; /*arriba, derecha, abajo, izquierda, o se puede agregar top, right, bottom, left*/
+		margin: 0px;
+}
+
+h1 {
+	color: #cb3244;
+	background-color: #000000ad;
+	font-family: 'Dancing Script', cursive;
+	/*font-family: 'Mate SC', serif;*/
+	padding: 0px 10px 10px 0px ;
+	font-size: 45px;
+	margin: 50px 900px 50px 0px;
+	vertical-align: text-top;
+	text-align: center;
+}
+
+.texto-banner {	
+				font-family: 'Montserrat', sans-serif;
+				color: rgb(101 98 98 / 80%)80%);
+				font-size: 24px;
+				background-color: #efefefe3;
+				text-align: center;
+}
+
+@media(max-width: 960px) {
+	.banner {
+		width: 900px;
+			}
+}
+
+.card-container{
+				width: 1356px;
+				margin: 0px auto;
+				background-color: #a92418;
+				/*background-color: #DEDBD9;*/
+				padding: 5px 5px 5px 5px;
+				display:flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: space-between;
+}
+
+
+@media(max-width: 720px) {
+	.card-container {
+		width: 600px;
+		flex-direction: column;
+		margin: 0px auto;
+		justify-content: space-between;
+		display:flex;
+			}
+}
+
+.card {
+		display:flex;
+		flex-direction: column;
+		background-color: #d8b384;
+  		/*background-color: #FFC89Fad;  */
+  		box-shadow: 0px 0px 16px rgba(0,0,0,1);
+  		border-radius: 5px;
+  		border: 1px solid black;/*no cambiar*/
+  		color: black;
+		padding: 10px 30px 5px 30px;
+		margin: 0px auto;
+  		text-decoration: none;
+  		justify-content: space-between;
+}
+
+h3 {	
+	font-family: 'Kanit', sans-serif;
+	color: #4A4949;
+	font-style: oblique 30deg 50deg;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+.card img {
+		width: 200px;
+		height: 200px;
+		padding: 24px;
+		margin: 0px auto;/*no cambiar*/
+}
+
+.btn {  
+	font-family: 'Kanit', sans-serif;
+	background-color: #4A4949;
+	color: white;
+	padding: inherit 2px 3px 2px 3px; /*no cambiar*/
+	border-radius: 4px;
+	text-decoration: none;
+	transition: .2s;
+	font-size: 20px;
+	font-weight: bold;
+	border:none;
+	margin: 0px auto;/*no cambiar*/
+}
+
+
+.pop-up {
+		background:#a92418;
+		width: 64%;
+		color: rgba(255,255,255,1);
+		font-family: 'Arial', sans-serif;
+		font-size: 18px;
+		text-align: center;
+		padding: 30px 70px 70px 70px;
+		min-height: 250px;
+		border-radius: 22px;
+		border: 5px #4a4949;/*no cambiar*/
+		position: absolute;
+		left: 14%;
+		top: 10%;
+		bottom: 5%;
+		display: none;
+		margin: 0px auto;
+}
+
+@media(max-width: 480px) {
+	.pop-up{
+		width: 300px;
+	}
+}
+
+h4 {	
+	font-family: 'Kanit', sans-serif;
+	color: rgb(254,176,80);
+	font-size: 30px;
+	font-style: oblique 30deg 50deg;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+
+.texto-pop-up {
+				font-family: 'Montserrat', sans-serif;
+				color: white;
+				font-size: 18px;
+				/*background-color: #FDE5DFad;*/
+				text-align: justify;
+}
+
+.img-pop-up-1 {
+				width: 250px;
+				height: 170px;
+    			box-shadow: 0px 0px 16px rgb(27 26 26);
+ 				border-radius: 5px;
+  				border: 1px solid #0c0b0b;/*no cambiar*/
+  				margin: 55px 10px;
+}
+
+@media(max-width: 480px) {
+	.img-pop-up-1 {
+		width: 70px;
+		height: 50px;
+	}
+}
+
+.cerrar img {
+			position: absolute;
+			right: 4px;
+			top: 4px;
+			width: 32px;
+			height: 32px;
+			padding: 20px 20px, 20px;
+			margin: 0px auto;/*no cambiar*/
+			background-color: transparent;
+}
+
+.logo-almacen-andante img {
+						vertical-align: middle;
+						width: 32px;
+						height: 32px;
+}
+
+.btn-red-social {
+				background-color: #efefef00;
+				font-family: 'Kanit', sans-serif;
+				color: white;
+				padding: inherit 2px 3px 2px 3px; /*no cambiar*/
+				border-radius: 4px;
+				text-decoration: none;
+				transition: .2s;
+				font-size: 20px;
+				font-weight: bold;
+				border:none;
+				margin: 0px auto;/*no cambiar*/
+}
+
+.lista-en-linea {
+				list-style:none;
+				background-color:#a92418; 
+				padding-left: 0px;
+				display:inherit;
+}
+
+.contenedor-vinos { 
+					display:flex;
+					flex-direction: column;
+					background-color: #d8b384;
+  					/*background-color: #FFC89Fad;  */
+  					color: black;
+					padding: 0px;
+					margin: 0px auto;
+  					text-decoration: none;
+  					justify-content: space-between;
+}
+
+@media(max-width: 480px) {
+	.contenedor-vinos {
+		width: 300px;
+		height: 600px;
+	}
+}
+
+.texto-imagen {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				padding: 5px 5px 5px 5px;
+				border: 1px solid black;
+}
+
+.img_ventana2 {
+				width: 170px;
+				height: 170px;
+    			box-shadow: 0px 0px 16px rgb(27 26 26);
+ 				border-radius: 5px;
+  				border: 1px solid #0c0b0b;/*no cambiar*/
+  				margin: 5px;
+}
+
+.texto-pop-up-2 {
+				width: 120;
+				height: 50;
+				font-family: 'Montserrat', sans-serif;
+				color: black;
+				font-size: 16px;
+				/*background-color: #FDE5DFad;*/
+				text-align: justify;
+				padding: 50px;
+}
