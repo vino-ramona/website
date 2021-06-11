@@ -188,8 +188,6 @@ padding-left: 0px;
 .contenedor-vinos{
 		display:flex;
 		flex-direction: column;
-		background-color: #d8b384;
-  		/*background-color: #FFC89Fad;  */
   		color: black;
 		padding: 5px 30px 5px 30px;
 		margin: 0px auto;
